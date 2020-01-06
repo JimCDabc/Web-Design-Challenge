@@ -1,88 +1,95 @@
-#main,
-#main-img
-#viz-img {
-  float: left;
+
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  background:lightgrey;
 }
 
-#figure {
+.header {
+  padding: 10px 0;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: rgb(1, 13, 20);
+  text-align: center;
+  /* position: relative; */
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+/* main {
   position: relative;
-}
-
-.viz-pane {
-  margin-top: 30px;
-  border-width: 10px;
-  border-color: black;
-}
-.viz-img {
-  height: 200px;
-  width: 30%;
-  padding: 10px;
-}
-
-.summary-pane {
-  margin-top: 30px
-  border-width: 10px;
-  border-color: black;
-}
-/* .summary-content {
-  display: inline-flex;
+  /* float: left; */
 } */
-.summary-img {
-  height: 200px;
-  width: 50%;
-  padding: 10px;
+
+.article {
+  /* margin-top: 30px;
+  background-color: cornsilk;
+  padding: 20px,20px,20px,20px; */
+  /* width: 98%; */
+}
+
+.article_img {
+  position: relative;
+  float: left;
+  width: 70%;
+  height: auto;
+  /* margin: 10px; */
+  z-index: 9;
+}
+
+.article_txt {
+  position: relative;
+  /* float: left; */
+  padding-left: 30px
 }
 
 
+
+/* .viz {
+  padding: 20px,20px,20px,20px;
+  background: green;
+  display: inline-block;
+} */
+
+/* #figure {
+  position: relative;
+}  */
+
+.viz_img {
+  position: relative;
+  float: left;
+  width: 50%;
+  height: auto;
+  padding: 10px
+}
+
+.box {
+  /* min-height: 50px; */
+  padding: 5px;
+  margin: 5px;
+  /* font-weight: 800; */
+  background-color:  whitesmoke
+}
+
+.hide {
+  visibility: hidden;
+}
+.white {
+  background: #fff;
+}
+.cornsilk {
+  background: cornsilk;
+}
 .skyblue {
   background: deepskyblue;
 }
 
-.purple {
-  background: rebeccapurple;
-}
 
-.red {
-  background: indianred;
-}
-
-h1 {
-  padding: 20px 0;
-  margin: 0;
-  margin-bottom: 20px;
-  font-size: 28px;
-  color: #eee;
-  text-align: center;
-}
-
-/* Selecting elements by ID */
-#main-content,
-#main-image,
-#vix-content,
-#viz-image {
-  float: left;
-}
-
-#figure {
-  position: relative;
-}
-
-#main-name {
-  position: absolute;
-  top: 150px;
-  left: 30px;
-}
-
-#main-content {
-  width: 100%;
-}
-
-#contact-info {
-  width: 30%;
-}
-
-#main-image {
-  width: 50%;
-  height: auto;
-  margin-right: 20px;
-}
