@@ -1,0 +1,88 @@
+#main,
+#main-img
+#viz-img {
+  float: left;
+}
+
+#figure {
+  position: relative;
+}
+
+.viz-pane {
+  margin-top: 30px;
+  border-width: 10px;
+  border-color: black;
+}
+.viz-img {
+  height: 200px;
+  width: 30%;
+  padding: 10px;
+}
+
+.summary-pane {
+  margin-top: 30px
+  border-width: 10px;
+  border-color: black;
+}
+/* .summary-content {
+  display: inline-flex;
+} */
+.summary-img {
+  height: 200px;
+  width: 50%;
+  padding: 10px;
+}
+
+
+.skyblue {
+  background: deepskyblue;
+}
+
+.purple {
+  background: rebeccapurple;
+}
+
+.red {
+  background: indianred;
+}
+
+h1 {
+  padding: 20px 0;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #eee;
+  text-align: center;
+}
+
+/* Selecting elements by ID */
+#main-content,
+#main-image,
+#vix-content,
+#viz-image {
+  float: left;
+}
+
+#figure {
+  position: relative;
+}
+
+#main-name {
+  position: absolute;
+  top: 150px;
+  left: 30px;
+}
+
+#main-content {
+  width: 100%;
+}
+
+#contact-info {
+  width: 30%;
+}
+
+#main-image {
+  width: 50%;
+  height: auto;
+  margin-right: 20px;
+}
