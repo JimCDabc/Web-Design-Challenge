@@ -10,24 +10,26 @@ body {
 }
 
 .header {
-  padding: 10px 0;
-  margin: 0;
+  padding: 0;
+  margin: 30px;
   margin-bottom: 20px;
-  font-size: 24px;
-  color: rgb(1, 13, 20);
+  font-size: larger;
+  font-weight: bold;
+  color:  #17a2b8;
   text-align: center;
   /* position: relative; */
 }
 
 img {
-  height: 100%;
-  width: 100%;
+  /* height: 100%; */
+  max-width: 100%;
 }
 
-/* main {
-  position: relative;
-  /* float: left; */
-} */
+img .active {
+  
+  border-color: #17a2b8 !important;
+  border-width: 10px !important;
+}
 
 .article {
   /* margin-top: 30px;
@@ -37,12 +39,15 @@ img {
 }
 
 .article_img {
-  position: relative;
+  /* position: relative; */
   float: left;
-  width: 60%;
+  max-width: 60%;
   height: auto;
+  /* width: 80%; */
+  /* max-width: 60%;
+  height: auto; */
   /* margin: 10px; */
-  z-index: 9;
+  /* z-index: 9; */
 }
 
 .article_txt {
@@ -52,31 +57,23 @@ img {
 }
 
 
-
-/* .viz {
-  padding: 20px,20px,20px,20px;
-  background: green;
-  display: inline-block;
-} */
-
-/* #figure {
-  position: relative;
-}  */
-
 .viz_img {
-  position: relative;
+  position: relative; 
   float: left;
-  width: 50%;
   height: auto;
-  padding: 10px
+  max-width: 50%;
+  /*
+  padding: 10px */
 }
 
 .box {
   /* min-height: 50px; */
   padding: 5px;
-  margin: 5px;
+  margin: 10px;
+  margin-top: 20px;
   /* font-weight: 800; */
-  background-color:  whitesmoke
+  background-color:  white;
+  border-radius: 10px;
 }
 
 .hide {
@@ -92,4 +89,34 @@ img {
   background: deepskyblue;
 }
 
+/* nav {
+  height: 80px;
+  width: 100%;
+  height: 80px;
+  background-color: yellow !important;
+  border-radius: 10px;
+} */
+
+.navbar-brand {
+  background: #17a2b8;
+  margin-left: 20px;
+  padding: 20px;
+  border-radius: 6px;
+  /* font-size: 150% ; */
+  color: white !important;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  /* box-sizing: border-box;
+  height: 120%; */
+}
+
+.nav-link {
+  /* font-size: 100% ; */
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+/* #navbarNavDropdown {
+  z-index:9; 
+} */
 
