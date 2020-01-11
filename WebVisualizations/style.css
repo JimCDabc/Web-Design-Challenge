@@ -16,19 +16,25 @@ body {
   font-size: larger;
   font-weight: bold;
   color:  #17a2b8;
-  text-align: center;
+  text-align: left;
   /* position: relative; */
 }
 
 img {
   /* height: 100%; */
-  max-width: 100%;
+  width: 100%;
+  max-width: 1024px;
+  height: auto;
 }
 
-img .active {
+.active {
   
   border-color: #17a2b8 !important;
-  border-width: 10px !important;
+  border-width: 2px !important;
+}
+
+a {
+  z-index: 2;
 }
 
 .article {
@@ -41,29 +47,45 @@ img .active {
 .article_img {
   /* position: relative; */
   float: left;
-  max-width: 60%;
+  width: 60%;
   height: auto;
   /* width: 80%; */
   /* max-width: 60%;
   height: auto; */
   /* margin: 10px; */
-  /* z-index: 9; */
+  z-index: 1;
 }
 
 .article_txt {
   position: relative;
   /* float: left; */
   padding-left: 30px
+  z-index: 0;
+}
+
+.viz_card {
+  max-width: 45%;
+  height: auto;
+  /* border: 0; */
+  padding: 0;
 }
 
 
-.viz_img {
+/* .viz_img {
   position: relative; 
   float: left;
   height: auto;
   max-width: 50%;
+
   /*
   padding: 10px */
+} */
+
+.comp_img {
+  position: relative; 
+  float: left;
+  max-width: 100%;
+  height: auto;
 }
 
 .box {
