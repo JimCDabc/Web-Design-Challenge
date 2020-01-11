@@ -3,7 +3,7 @@
 
     <head>
     <meta charset="UTF-8">
-    <title>Latitude vs. X</title>
+    <title>Latitude vs. Max Temp</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     
@@ -41,34 +41,49 @@
 
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-8 col-sm-12">
+                <div class="col-lg-8 col-sm-12">
                     <section class="article box" > 
                     <h3 class="header">Max Temperature</h3>
                     <hr/>
-                    <a href=".\Resources\assets\images\Fig4.png">
-                        <img class="article_img img-fluid img-responsive" src=".\Resources\assets\images\Fig4.png" alt="Responsive Image">
+                    <a href=".\Resources\assets\images\Fig1.png">
+                        <img class="article_img" src=".\Resources\assets\images\Fig1.png" alt="Responsive Image">
                     </a>
                     <p class="article_txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum risus ut justo laoreet consectetur. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc dui neque, malesuada egestas aliquet ac, commodo in magna. Etiam mollis odio at mi maximus hendrerit. Integer aliquam id lectus nec hendrerit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris rhoncus eget nulla in ornare. Maecenas massa nibh, commodo non condimentum eu, congue tempus neque. Donec neque mi, ullamcorper eget fringilla et, iaculis vitae tortor. Curabitur vel nunc vel mi lobortis ornare ut non nulla. Etiam ornare libero ac suscipit aliquam. Nunc venenatis felis sit amet velit vehicula interdum. Vivamus iaculis condimentum nulla vitae dapibus.</p>
                     </section>
                 </div>
 
-                <div class="col-md-4 col-sm-12">
+                <div class="col-lg-4 col-sm-12">
                     <section class="viz box">
-                    <h3 class="header">Visualizations</h3>
-                    <hr/>
-                    <a  href=".\maxtemp.html">
-                        <img class="active viz_img img-fluid hover" src=".\Resources\assets\images\Fig1.png" alt="City Latitude vs. Max Temp">
-                    </a>
-                    <a href=".\humidity.html">
-                        <img class="viz_img img-fluid hover" src=".\Resources\assets\images\Fig2.png" alt="City Latitude vs. Humidity">
-                    </a>
-                    <a href=".\cloudy.html"> 
-                        <img class="viz_img img-fluid hover" src=".\Resources\assets\images\Fig3.png" alt="City Latitude vs. Cloudiness">
-                    </a>
-                    <a href=".\windspeed.html">
-                        <img class="viz_img img-fluid hover" src=".\Resources\assets\images\Fig4.png" alt="City Latitude vs. Windspeed">
-                    </a>
-                    <p class="hide"> ... </p>
+                        <h3 class="header">Visualizations</h3>
+                        <hr/>
+                            <div class="card d-inline-block m-1 viz_card active ">
+                                <div class="card-body">
+                                    <a  href=".\maxtemp.html" title="City Latitude vs. Max Temp">
+                                        <img class="img-fluid" src=".\Resources\assets\images\Fig1.png" alt="City Latitude vs. Max Temp">
+                                    </a>
+                                </div>
+                            </div>               
+                            <div class="card d-inline-block m-1 viz_card">
+                                <div class="card-body">
+                                    <a href=".\humidity.html" title="City Latitude vs. Humidity">
+                                        <img class="img-fluid" src=".\Resources\assets\images\Fig2.png" alt="City Latitude vs. Humidity">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="card d-inline-block m-1 viz_card">
+                                <div class="card-body">
+                                    <a href=".\cloudy.html" title="City Latitude vs. Cloudiness"> 
+                                        <img class="img-fluid" src=".\Resources\assets\images\Fig3.png" alt="City Latitude vs. Cloudiness">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="card d-inline-block m-1 viz_card">
+                                <div class="card-body">
+                                    <a href=".\windspeed.html" title="City Latitude vs. Windspeed">
+                                        <img class="img-fluid" src=".\Resources\assets\images\Fig4.png" alt="City Latitude vs. Windspeed">
+                                    </a>
+                                </div>
+                            </div>
                     </section>
                 </div>
             </div>

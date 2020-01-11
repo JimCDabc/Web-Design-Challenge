@@ -3,7 +3,7 @@
 
     <head>
     <meta charset="UTF-8">
-    <title>Latitude vs. X</title>
+    <title>Comoparisons</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     
@@ -40,38 +40,77 @@
     
 
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-8 col-sm-12">
-                    <section class="article box" > 
-                    <h3 class="header">Comparisons</h3>
-                    <hr/>
-                    <a href=".\Resources\assets\images\Fig4.png">
-                        <img class="article_img img-fluid img-responsive" src=".\Resources\assets\images\Fig4.png" alt="Responsive Image">
-                    </a>
-                    <p class="article_txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum risus ut justo laoreet consectetur. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc dui neque, malesuada egestas aliquet ac, commodo in magna. Etiam mollis odio at mi maximus hendrerit. Integer aliquam id lectus nec hendrerit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris rhoncus eget nulla in ornare. Maecenas massa nibh, commodo non condimentum eu, congue tempus neque. Donec neque mi, ullamcorper eget fringilla et, iaculis vitae tortor. Curabitur vel nunc vel mi lobortis ornare ut non nulla. Etiam ornare libero ac suscipit aliquam. Nunc venenatis felis sit amet velit vehicula interdum. Vivamus iaculis condimentum nulla vitae dapibus.</p>
-                    </section>
-                </div>
-
+            <!-- <div class="row">
                 <div class="col-md-4 col-sm-12">
                     <section class="viz box">
                     <h3 class="header">Visualizations</h3>
                     <hr/>
-                    <a  href=".\maxtemp.html">
-                        <img class="viz_img img-fluid hover" src=".\Resources\assets\images\Fig1.png" alt="City Latitude vs. Max Temp">
+                    <a  href=".\maxtemp.html" title="City Latitude vs. Max Temp">
+                        <img class="active viz_img img-fluid hover" src=".\Resources\assets\images\Fig1.png" alt="City Latitude vs. Max Temp">
                     </a>
-                    <a href=".\humidity.html">
+                    <a href=".\humidity.html" title="City Latitude vs. Humidity">
                         <img class="viz_img img-fluid hover" src=".\Resources\assets\images\Fig2.png" alt="City Latitude vs. Humidity">
                     </a>
-                    <a href=".\cloudy.html"> 
+                    <a href=".\cloudy.html" title="City Latitude vs. Cloudiness"> 
                         <img class="viz_img img-fluid hover" src=".\Resources\assets\images\Fig3.png" alt="City Latitude vs. Cloudiness">
                     </a>
-                    <a href=".\windspeed.html">
-                        <img class="viz_img img-fluid active hover" src=".\Resources\assets\images\Fig4.png" alt="City Latitude vs. Windspeed">
+                    <a href=".\windspeed.html" title="City Latitude vs. Windspeed">
+                        <img class="viz_img img-fluid hover" src=".\Resources\assets\images\Fig4.png" alt="City Latitude vs. Windspeed">
                     </a>
                     <p class="hide"> ... </p>
                     </section>
                 </div>
-            </div>
+            </div> -->
+                <section class="viz box">
+                    <div class="row">
+                        <h3 class="header text-center">Comparison: Latitude vs. X</h3>
+                        <hr/>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-12">
+                            <div class="card text-center active" >
+                                <div class="card-body hover">
+                                    <h5 class="card-title header">vs. Max Temp</h5>
+                                    <a  href=".\maxtemp.html" title="City Latitude vs. Max Temp">
+                                        <img class="img-fluid" src=".\Resources\assets\images\Fig1.png" alt="City Latitude vs. Max Temp">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-12">                   
+                            <div class="card text-center hover">
+                                <div class="card-body">
+                                    <h5 class="card-title header">vs. Humidity</h5>
+                                    <a href=".\humidity.html" title="City Latitude vs. Humidity">
+                                        <img class="img-fluid" src=".\Resources\assets\images\Fig2.png" alt="City Latitude vs. Humidity">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-12">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h5 class="card-title header">vs. Cloudiness</h5>
+                                    <a href=".\cloudy.html" title="City Latitude vs. Cloudiness"> 
+                                        <img class="img-fluid" src=".\Resources\assets\images\Fig3.png" alt="City Latitude vs. Cloudiness">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-12">
+                            <div class="card text-center hover">
+                                <div class="card-body">
+                                    <h5 class="card-title header">vs. Windspeed</h5>
+                                    <a href=".\windspeed.html" title="City Latitude vs. Windspeed">
+                                        <img class="img-fluid" src=".\Resources\assets\images\Fig4.png" alt="City Latitude vs. Windspeed">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
         </div>
     </body>
 </html>
